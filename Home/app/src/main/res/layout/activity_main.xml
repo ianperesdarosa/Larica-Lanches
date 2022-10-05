@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    android:backgroundTint="#03A9F4"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="822dp"
+        android:layout_height="622dp"
+        app:srcCompat="@drawable/menu"
+        tools:layout_editor_absoluteX="-154dp"
+        tools:layout_editor_absoluteY="-116dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="51dp"
+        android:layout_height="46dp"
+        app:srcCompat="@drawable/home"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="51dp"
+        android:layout_height="46dp"
+        app:srcCompat="@drawable/login"
+        tools:layout_editor_absoluteX="413dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="958dp"
+        android:layout_height="1013dp"
+        app:srcCompat="@drawable/retangulo"
+        tools:layout_editor_absoluteX="-222dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="958dp"
+        android:layout_height="1013dp"
+        app:srcCompat="@drawable/retangulo"
+        tools:layout_editor_absoluteX="-222dp"
+        tools:layout_editor_absoluteY="-164dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="225dp"
+        android:layout_height="39dp"
+        android:text="Larica Lanches"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.013" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="331dp"
+        android:layout_height="121dp"
+        android:text="Oferta da Semana"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.166" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="338dp"
+        android:layout_height="455dp"
+        app:srcCompat="@drawable/Laricao_Felizpng"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="315dp"
+        android:layout_height="127dp"
+        android:backgroundTint="#03A9F4"
+        android:onClick="irParaCardapio"
+        android:text="Página de Lanches"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="655dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
